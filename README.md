@@ -19,7 +19,7 @@ const {setWatermarkText} = require("@ericbyliang/miniprogram");
 setWatermarkText('林俊杰 2000022') //加水印
 setWatermarkText('') //取消水印
 ```
-## 5、设置水印样式
+## 5、动态设置水印样式
 ```shell
  <watermark text='周杰伦 2000021' textSize='14' textColor='rgba(80,80,80,0.08)' rotate='-20' gapX='120' gapY='180'/>
  ```
