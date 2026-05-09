@@ -1,0 +1,9 @@
+<view class="watermark" style="transform: rotate({{rotate}}deg);color: {{textColor}};font-size: {{textSize}}rpx;">
+  <block wx:for="{{60}}" wx:key="row">
+    <view class="watermark-row" style="margin-left: {{index % 2 === 0 ? 0 : textSize*text.length/2}}rpx;margin-bottom: {{gapY}}rpx;">
+      <block wx:for="{{15}}" wx:key="col">
+        <text class="watermark-col" style="margin-right: {{gapX}}rpx;">{{text}}</text>
+      </block>
+    </view>
+  </block>
+</view>

@@ -1,0 +1,20 @@
+.watermark {
+  position: fixed;
+  width: 200vw;
+  height: 150vh;
+  top: -20vw;
+  left: -50vw;
+
+  z-index: 1000000;
+  pointer-events: none;
+
+  overflow: hidden;
+}
+
+.watermark-row {
+  white-space: nowrap;
+}
+
+.watermark-col {
+  display: inline-block;
+}
